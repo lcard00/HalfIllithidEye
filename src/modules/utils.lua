@@ -270,7 +270,7 @@ function utils.read_questions(id)
 
     for _, question in pairs(questions) do
         if _ == id then
-            return question.question
+            return _, question.question
         end
     end
 end
